@@ -2,7 +2,6 @@
     #include <FirebaseArduino.h>
     #include <Servo.h>
     // Set these to run example.
-    
     #define FIREBASE_HOST "test-1b6b7.firebaseio.com"
     #define FIREBASE_AUTH "7zVayxDV3ljh9Xg6zK6iIitZy9985hgc2KNmTENg"
     
@@ -51,7 +50,6 @@ volatile byte state = HIGH;
       Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
       int a=Firebase.getInt("");
     }
-    
     
     void loop() {
      
