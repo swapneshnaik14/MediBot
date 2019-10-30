@@ -17,7 +17,7 @@
   String a,pathx;
   int temp,Var,person,tm;
   void setup() {
-      pinMode(D0,OUTPUT);
+      pinMode(D0,OUTPUT);//nice
       pinMode(D1,OUTPUT);
       pinMode(D2,OUTPUT);
       pinMode(D3,OUTPUT);
